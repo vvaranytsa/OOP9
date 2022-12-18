@@ -1,0 +1,11 @@
+GET https://lit-taiga-65511.herokuapp.com/api/v1/flower
+
+###
+POST https://lit-taiga-65511.herokuapp.com/api/v1/flower
+Content-Type: application/json
+
+{
+  "sepalLength": 100,
+  "color": "blue",
+  "price": 100
+}
